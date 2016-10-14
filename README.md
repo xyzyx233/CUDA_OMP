@@ -1,0 +1,2 @@
+# CUDA_OMP
+CUDA 7.5/8.0 并行实现OMP算法
