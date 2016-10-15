@@ -1,0 +1,145 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  G:\VC++\CUDA_OMP>"D:\software\CUDA DOC\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"D:\software\CUDA DOC\include" -I"D:\software\CUDA DOC\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "G:\VC++\CUDA_OMP\kernel.cu" 
+d:\software\cuda doc\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:/VC++/CUDA_OMP/kernel.cu(115): warning : variable "output" was set but never used
+G:/VC++/CUDA_OMP/kernel.cu(461): warning : variable "fp" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(461): warning : variable "fo" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(461): warning : variable "fp1" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(463): warning : variable "fileHeader" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(464): warning : variable "infoHeader" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(467): warning : variable "temp" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(474): warning : variable "ans" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a_transpose" was set but never used
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "d_transpose" was set but never used
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a_a" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a_t" was declared but never referenced
+d:\software\cuda doc\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:/VC++/CUDA_OMP/kernel.cu(115): warning : variable "output" was set but never used
+G:/VC++/CUDA_OMP/kernel.cu(461): warning : variable "fp" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(461): warning : variable "fo" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(461): warning : variable "fp1" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(463): warning : variable "fileHeader" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(464): warning : variable "infoHeader" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(467): warning : variable "temp" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(474): warning : variable "ans" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a_transpose" was set but never used
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "d_transpose" was set but never used
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a_a" was declared but never referenced
+G:/VC++/CUDA_OMP/kernel.cu(594): warning : variable "a_t" was declared but never referenced
+d:\software\cuda doc\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(774): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\device_functions.h(1618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(849): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(1787): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(2637): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(3492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(4431): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(5345): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(6252): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7142): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\software\cuda doc\include\math_functions.h(7956): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+G:/VC++/CUDA_OMP/kernel.cu(560): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:/VC++/CUDA_OMP/kernel.cu(567): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:/VC++/CUDA_OMP/kernel.cu(594): warning C4101: “a”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(461): warning C4101: “fp1”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(461): warning C4101: “fo”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(594): warning C4101: “a_t”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(594): warning C4101: “a_a”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(463): warning C4101: “fileHeader”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(464): warning C4101: “infoHeader”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(461): warning C4101: “fp”: 未引用的局部变量
+G:/VC++/CUDA_OMP/kernel.cu(467): warning C4101: “temp”: 未引用的局部变量
+  CUDA_OMP.vcxproj -> G:\VC++\CUDA_OMP\Debug\CUDA_OMP.exe
+  CUDA_OMP.vcxproj -> G:\VC++\CUDA_OMP\Debug\CUDA_OMP.pdb (Full PDB)
+  copy "D:\software\CUDA DOC\bin\cudart*.dll" "G:\VC++\CUDA_OMP\Debug\"
+  D:\software\CUDA DOC\bin\cudart32_80.dll
+  D:\software\CUDA DOC\bin\cudart64_80.dll
+  已复制         2 个文件。
